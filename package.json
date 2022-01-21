@@ -1,12 +1,12 @@
 {
   "name": "batu_forever",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
   "repository": "git@github.com:tenshouuu/batu_forever.git",
   "author": "tenshou <pamiheevcorp@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "vote": "CAPTCHA_SOLVER_KEY=0e74aba67dff4b71d9dcd5c56d61129a VOTE_COUNT=5 node main.js"
+    "vote": "CAPTCHA_SOLVER_KEY=${YOUR_KEY} VOTE_COUNT=1 node main.js"
   },
   "dependencies": {
     "@antiadmin/anticaptchaofficial": "^1.0.18",
