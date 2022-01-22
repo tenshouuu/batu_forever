@@ -9,7 +9,9 @@ npm install
 yarn
 ```
 
-2. Run the script ():
+2. Set environments (CAPTCHA_SOLVER_KEY, VOTE_COUNT) in package.json
+
+3. Run the script:
 ```bash
 npm run vote
 # or
