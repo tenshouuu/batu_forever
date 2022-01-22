@@ -6,7 +6,7 @@
   "author": "tenshou <pamiheevcorp@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "vote": "CAPTCHA_SOLVER_KEY={PUT_YOUR_KEY} VOTE_COUNT=1 nodemon --auto-restart main.js"
+    "vote": "CAPTCHA_SOLVER_KEY={PUT_YOUR_KEY} VOTE_COUNT=1 node main.js"
   },
   "dependencies": {
     "@antiadmin/anticaptchaofficial": "^1.0.18",
